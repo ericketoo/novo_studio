@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:'roboto';
+    src: url(../assets/font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'gotham';
+    src:url(../assets/font/GothamBold.ttf) format('truetype') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*header*/
+.img-index-txt h1{
+    border-bottom: -50px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.img-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../capa-maior/1nausicadovale.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -50;
+    text-align:center;
+    align-content:center;
+    padding-top:360px;
+    padding-bottom: 360px;
+    color: white;
+}
+.img-index h1{
+    font-family: 'gotham', sans-serif;
+    font-size: 73px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+.logo-menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu{
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+nav a{
+    font-family: 'gotham';
+    color: black;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+/*header*/
+
+
+
+
+/*SOBRE-FICHA*/
+    /*SOBRE*/
+
+#sobre-ficha{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sobre-ficha{
+    font-family: 'gotham';
+    gap: 30px;
+}
+#sobre-ficha h1{
+    font-size: 30px;
+
+}
+.pre-filme{
+    width: 80vw;
+}
+.pre-filme img{
+    display: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.77);
+}
+.pre-filme p{
+    font-family: 'roboto';
+    text-align: justify;
+}
+.ficha{
+    text-align: center;
+}
+    /*SOBRE*/
+
+/*CARD "SOBRE"*/
+
+.ficha-tecnica{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.info-card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.info-card p{
+    font-family: 'roboto';
+}
+.info-card h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'gotham';
+}
+
+.card{
+    background: gray;
+    width: 370px;
+    height: 630px;
+    border-radius: 15px;
+    color: white;
+
+}
+.caixa-alta img{
+    width: 20px;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content li{
+    font-family: 'gotham';
+}
+.content ol{
+    font-family: 'roboto';
+    text-align: end;
+}
+
+.caixa-alta{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 20px;
+}
+    /*CARD "SOBRE"*/
+/*SOBRE-FICHA*/
+
+
+
+/*SONOPSE-INFO*/
+#sinopse-info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.sinopse{
+    width: 80%;
+}
+.informaçoes{
+    width: 80%;
+}
+#sinopse-info p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+#sinopse-info h1{
+    font-size: 33px;
+    font-family: 'gotham', sans-serif;
+    margin-bottom: 10px;
+}
+/*SONOPSE-INFO*/
+
+
+
+/*PRODUÇÃO*/
+#produçao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#produçao div{
+    width: 80%;
+}
+#produçao h1{
+    font-size: 29px;
+    font-family: 'gotham', sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#produçao p{
+    font-size: 17px;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+/*PRODUÇÃO*/
+
+/*ASSISTA AGORA*/
+#assista-agora h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'gotham';
+}
+.spotifly h1{
+    text-align: center;
+}
+
+#assista-agora{
+    margin: 0px 200px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.assista img{
+    border-radius: 40px;
+    box-shadow: 4px 3px 15px #000000;
+}
+/*ASSISTA AGORA*/
+
+
+
+/*DIRETORES STYLE */
+main a{
+    text-decoration: none;
+    color: black;
+}
+#diretores-index h1{
+    font-size: 33px;
+    font-family: 'gotham', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+#diretores-index{
+    margin: 50px 100px 150px 100px ;
+}
+.card-diretores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-diretores p {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.card-diretores h2{
+    font-family: 'roboto', sans-serif;
+}
+.card h2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card-diretores{
+    margin-bottom: 50px;
+    position: relative;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    display: grid;
+    gap: 0 20px;
+    box-shadow: 0px 0px 0px 0px #00000033;
+}
+.card-diretores .itens-diretores{
+    position: relative;
+    background: white;
+    width: 390px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #00000033;
+}
+.card-diretores .itens-diretores img{
+    width: 390px;
+    height: 250px;
+    transition: 1s;
+    border-radius: 10px;
+    object-fit: none;
+}
+.conteiner-diretores{
+    color: black;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    color: transparent;
+    top: 15px;
+    left: 15px;
+}
+.conteiner-diretores p{
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+    width: 350px;
+}
+.conteiner-diretores:hover{
+    cursor: pointer;
+}
+.itens-diretores:hover img{
+    width: 0px;
+}
+.itens-diretores:hover .conteiner-diretores{
+    display: block;
+    color: #161623;
+    opacity: 1;
+    visibility: visible;
+    display:block;
+}
+/*DIRETORES STYLE */
+
+
+@media (max-width: 768px){
+
+}
+@media (min-width: 992px){
+    
+#sobre-ficha{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'gotham';
+    gap: 30px;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+.pre-filme{
+    width: 100%;
+}
+.pre-filme img{
+    width: 40vw;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.77);
+}
+
+}
+@media (min-width: 1200px){
+    #sobre-ficha{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        font-family: 'gotham';
+        gap: 30px;
+        justify-content: space-between;
+        padding: 0px 8%;
+    }
+    .pre-filme{
+        width: 40vw;
+    }
+    .pre-filme img{
+        width: 40vw;
+    }
+    .card{
+        width: 500px;
+        height: 630px;
+    }
+    .caixa-alta {
+        padding: 0px 50px;
+    }
+}
+@media (min-width: 1500px){
+    .pre-filme{
+        width: 600px;
+    }
+    .pre-filme img{
+        width: 600px;
+    }
+    #sobre-ficha{
+        padding: 0px 15%;
+    }
+    .sinopse{
+        width: 60%;
+    }
+    .informaçoes{
+        width: 60%;
+    }
+    #produçao div{
+        width: 60%;
+    }
+}
