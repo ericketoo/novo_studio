@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Array de conjuntos de conteúdo
     const conteudos = [
       {
-        imagem: "../assets/img/diretores-index-img3.png",
+        imagem: "../img/diretores-index/DIRETORES-INDEX-IMG4.png",
         texto: "Texto 1",
         film: "como treinar drgão"
       },
@@ -19,6 +19,26 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         imagem: "caminho-da-imagem-3.jpg",
         texto: "Texto 4",
+        film:"macarakwfjb"
+      },
+      {
+        imagem: "caminho-da-imagem-3.jpg",
+        texto: "Texto 5",
+        film:"macarakwfjb"
+      },
+      {
+        imagem: "caminho-da-imagem-3.jpg",
+        texto: "Texto 6",
+        film:"macarakwfjb"
+      },
+      {
+        imagem: "caminho-da-imagem-3.jpg",
+        texto: "Texto 7",
+        film:"macarakwfjb"
+      },
+      {
+        imagem: "caminho-da-imagem-3.jpg",
+        texto: "Texto 8",
         film:"macarakwfjb"
       }
     ];

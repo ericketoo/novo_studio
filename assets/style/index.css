@@ -607,6 +607,7 @@ footer{
   .nav-list-div{
       display: flex;
       flex-direction: column;
+      margin-top: 40px;
   }
   /*serve para que posso ajudtar os elemntos no responsivo*/
 
