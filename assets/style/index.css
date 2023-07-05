@@ -464,6 +464,30 @@ footer{
 .info{
   gap: 5px;
 }
+.card-diretores .itens-diretores{
+  position: relative;
+  background: white;
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px #00000033;
+}
+.card-diretores .itens-diretores img{
+  width: 100%;
+  height: 250px;
+  transition: 1s;
+  border-radius: 10px;
+  object-fit: none;
+}
+.conteiner-diretores p{
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: justify;
+  width: 310px;
+}
+.itens-diretores:hover img{
+  width: 0px;
+}
 }
 @media (max-width: 768px) {
   .img-index{
