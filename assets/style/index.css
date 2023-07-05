@@ -29,7 +29,15 @@ h1 ,h2{
 p{
   font-family: 'roboto';
 }
-
+main{
+  background-color: white;
+}
+body{
+  background-color: white;
+}
+header{
+  background-color: white;
+}
 /*HEADER CONFIG*/
 .img-index{
     width: 100%;
