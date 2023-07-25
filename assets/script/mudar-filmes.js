@@ -6,18 +6,21 @@ document.addEventListener("DOMContentLoaded", function() {
         texto: "Texto 1",
         film: "como treinar drgão",
         link: "page1.html"
+
       },
       {
         imagem: "../img/diretores-index/DIRETORES-INDEX-IMG6.png",
         texto: "Texto 2",
         film: "amigo totoro",
         link: "page2.html"
+
       },
       {
         imagem: "../img/diretores-index/DIRETORES-INDEX-IMG5.png",
         texto: "Texto 3",
         film: "batata",
         link: "page3.html"
+
       },/*
       {
         imagem: "caminho-da-imagem-3.jpg",
